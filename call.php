@@ -6,3 +6,5 @@ $twilio = new \Twilio\Rest\Client(
     'ACb877821242bbaedc246328ca0a8c3fc6',
     getenv('TWILIO_TOKEN')
 );
+
+$number = '';
