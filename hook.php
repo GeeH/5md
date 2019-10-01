@@ -6,9 +6,3 @@ $queueNo = $_SESSION['queueNo'] ?? 0;
 $queueNo++;
 $_SESSION['queueNo'] = $queueNo;
 
-// $phoneNumber = '+46790646071';
-
-$messagingResponse = new \Twilio\TwiML\MessagingResponse();
-$messagingResponse->message('You are person number ' . $queueNo);
-
-echo $messagingResponse;
