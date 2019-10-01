@@ -1,7 +1,8 @@
 {
     "name": "ghockin/5md",
     "require": {
-        "twilio/sdk": "^5.33"
+        "twilio/sdk": "^5.33",
+        "tightenco/collect": "^6.0"
     },
     "authors": [
         {
