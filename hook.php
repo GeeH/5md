@@ -1,8 +1,4 @@
 <?php declare(strict_types=1);
-session_start();
 require_once('vendor/autoload.php');
 
-$queueNo = $_SESSION['queueNo'] ?? 0;
-$queueNo++;
-$_SESSION['queueNo'] = $queueNo;
-
+$yourNumber = \random_int(1, 100);
